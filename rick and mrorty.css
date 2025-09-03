@@ -1,0 +1,11 @@
+header{
+animation: 5s linear 1s infinite running myscale;
+
+
+
+
+}
+
+@keyframes myScale{
+    50%{transform: scale(0.5,0.5);}
+}

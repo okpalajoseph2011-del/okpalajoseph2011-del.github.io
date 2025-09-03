@@ -1,0 +1,112 @@
+p{
+border: 5px,solid;
+    height: 250px;
+    width: 250px;
+    background-color: #dc6414;
+    text-align: center;
+    font-size:200px;
+
+    transform: translateX(50px);
+    transform: translatey(50px);
+
+    transform: translate(50px,50px);
+    transform: rotateX('180deg');
+    transform: rotateY('180deg');
+    transform: rotateZ('180deg');
+    transform: scaleX(2);
+    transform: scaleY(2);
+    transform: scale(2,2);
+    transform: skewX(45deg);
+    transform: skewy(45deg);
+    transform: skew(25deg,25deg);
+}
+
+#first{
+    border: 5px,solid;
+    height: 250px;
+    width: 250px;
+    background-color:blue;
+    font-size: 80px;
+    text-align: center;
+
+    animation: 5s linear 1s infinite running mycolor;
+}
+
+
+@keyframes mycolor{
+    20%{background-color:blueviolet;}
+    40%{background-color:rgb(211, 43, 226);}
+    60%{background-color:rgb(226, 43, 186);}
+    80%{background-color:rgb(226, 43, 119);}
+    100%{background-color:rgb(226, 43, 73);}
+}
+
+
+#second{
+     border: 5px,solid;
+    height: 250px;
+    width: 250px;
+    background-color:rosybrown;
+    font-size: 80px;
+    text-align: center;
+
+    animation: 5s linear 1s infinite running myScale;
+}
+
+@keyframes myScale{
+    50%{transform: scale(0.5,0.5);}
+}
+
+
+
+#third{
+     border: 5px,solid;
+    height: 250px;
+    width: 250px;
+    background-color:green;
+    font-size: 80px;
+    text-align: center;
+
+    animation: 5s linear 1s infinite running myRotate;
+}
+
+
+@keyframes myRotate{
+    100%{transform: rotatez(360deg);}
+}
+
+
+#forth{
+     border: 5px,solid;
+    height: 250px;
+    width: 250px;
+    background-color:crimson;
+    font-size: 80px;
+    text-align: center;
+
+animation: 5s linear 1s infinite running mySlide;
+}
+
+@keyframes mySlide{
+    from{margin-left: 100%;}
+    to{margin-left: 0%;}
+}
+
+
+
+#fifth{
+     border: 5px,solid;
+    height: 250px;
+    width: 250px;
+    background-color:gold;
+    font-size: 80px;
+    text-align: center;
+
+    animation: 5s linear 1s infinite running myOpacity;
+
+}
+
+
+@keyframes myOpacity{
+50%{opacity: 0%;}
+}

@@ -1,0 +1,81 @@
+ /*p{
+     border: 5px,solid;
+    height: 250px;
+    width: 250px;
+    background-color: #dc143c;
+    text-align: center;
+    font-size:200px;
+
+    transform: translateX(50px);
+    transform: translatey(50px);
+
+    transform: translate(50px,50px);
+    transform: rotateX('180deg');
+    transform: rotateY('180deg');
+    transform: rotateZ('180deg');
+    transform: scaleX(2);
+    transform: scaleY(2);
+    transform: scale(2,2);
+    transform: skewX(45deg);
+    transform: skewy(45deg);
+    transform: skew(25deg,25deg);
+transform: matrix(2,45deg,45deg,2,50px,50px);
+scalex()
+skewx()
+skewy()
+scalex()
+translatex()
+translatey()
+}*/
+
+
+#HI{
+    border: 5px solid;
+    width: 250px;
+    height: 250px;
+    font-size: 225px;
+    text-align: center;
+    background-color: green;
+
+
+/*animation: mySlide;
+animation-iteration-count: infinite;
+animation-duration: 5s;
+animation-delay: 1s;
+animation-timing-function: ease-out;
+animation play-state; running*/
+
+animation: 5s linear 1s infinite running mycolor;
+
+
+}
+
+/*#HI:active{
+animation:5s linear 1s infinite running mySlide;
+}*/
+
+
+@keyframes mySlide{
+    from{margin-left: 100%;}
+    to{margin-left: 0%;}
+}
+
+@keyframes myRotate{
+    100%{transform: rotatez(360deg);}
+}
+
+@keyframes myScale{
+    50%{transform: scale(0.5,0.5);}
+}
+
+@keyframes myOpacity{
+50%{opacity: 0%;}
+}
+
+@keyframes mycolor{
+    20%{background-color: rgb(0, 128, 64);}
+    40%{background-color: rgb(0, 128, 100);}
+    60%{background-color: rgb(0, 113, 128);}
+    80%{background-color: rgb(0, 98, 128);}
+    100%{background-color: rgb(0, 51, 128);}
+}

@@ -1,0 +1,58 @@
+h1{
+    background-color: aqua; color: #e60322dc;
+}
+  
+#h1{
+    background-color: bisque; color: goldenrod;
+}
+
+.odd{
+    background-color: brown;
+}
+
+.even{
+    background-color: burlywood;
+}
+#pop{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 16px;
+    text-decoration:double underline grey;
+}
+
+h2{
+    border-style: outset ;
+    border-width: 5px;
+    border-radius: 5px;
+    border-color: olive;
+    padding: 5px;
+    text-decoration: double underline tomato;
+}
+
+h3{
+    border-top: solid;
+    border-bottom: solid;
+    border-right: solid;
+    border-top-width:5px;
+    border-top-color:aqua;
+    border-top-right-radius:5px;
+
+border: solid;
+}
+/*
+#body{
+    background:linear-gradient(to right,green,blue);
+    background-repeat:no-repeat;
+    background-attachment:fixed;
+
+}*/
+
+#body{
+    
+    background-image:url(Anime.jfif);
+    background-repeat:no-repeat;
+    background-attachment:fixed;
+    background-position:center;
+    background-size:cover;
+}

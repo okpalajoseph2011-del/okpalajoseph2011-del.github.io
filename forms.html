@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>forms</title>
+</head>
+<body>
+    <form action="php" method="post">
+        <label>username</label>
+<input type="text" id="username"required>
+<br>
+<label>password</label>
+<input type="text" id="password" placeholder="invin122099whO6789" minlength="6" maxlength="15" required>
+<br>
+<label>Email</label>
+<input type="text" id="password" placeholder="invinciblewho@gmail.com">
+<br>
+<label for="phone">phone</label>
+<input type="number" id="phone" aria-placeholder="o80-3783-4567" pattern="[o-9](3)">
+<br>
+<Label for="birthdate">birthdate</Label>
+<input type="date" id="birthdate">
+<br>
+<Label for="number">quantity</Label>
+<input type="number" id="quantity" min="0" max="100">
+<br>
+<label>Mr</label>
+<input type="radio" name="title">
+<label>Mrs</label>
+<input type="radio" name="title">
+<label>PHD</label>
+<input type="radio" name="title">
+<br>
+<label for="payment">payment</label>
+<select id="payment">
+    <option value="Visa">Visa</option>
+    <option value="Mastercard">Mastercard</option>
+<option value="Giftcard">Giftcard</option>
+<option value="Opay">Opay</option>
+</select>
+<br>
+<label>Subscribe</label>
+<input type="checkbox" id="Subscribe">
+<br>
+<label for="Comment">Comment</label>
+<textarea id="Comment" rows="4" cols="25"></textarea>
+<br>
+<label for="file">file</label>
+<input type="file" id="file">
+<br>
+<input type="reset">
+<br>
+<input type="submit">
+    </form>
+</body>
+</html>

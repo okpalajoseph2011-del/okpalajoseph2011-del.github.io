@@ -1,0 +1,43 @@
+body{
+    background:linear-gradient(to right,green,blue);
+    background-repeat:no-repeat;
+    background-attachment:fixed;
+}
+
+p{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 16px;
+    text-decoration:double underline grey;
+}
+
+h1{
+     border-style: outset ;
+    border-width: 5px;
+    border-radius: 5px;
+    border-color: olive;
+    padding: 5px;
+    text-decoration: double underline tomato;
+}
+
+#name{
+     border-top: solid;
+    border-bottom: solid;
+    border-right: solid;
+    border-top-width:5px;
+    border-top-color:aqua;
+    border-top-right-radius:5px;
+    text-decoration:dotted underline;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#bro{
+    border:solid;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: wavy underline;
+}
+
+#box1{
+    border:5px;
+}
